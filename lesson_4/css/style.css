@@ -1,0 +1,271 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+html,
+body {
+	font-size: 14px;
+	line-height: 1;
+	font-family: "Gilroy";
+}
+/*--------------------*/
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header .inner {
+	text-align: center;
+}
+
+.header__link {
+	color: #a52a2a;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+.main__item {
+	text-align: center;
+}
+.main__item-text {
+	color: rgb(210, 105, 30, 0.9);
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+	text-indent: 30px;
+}
+#top {
+	color: #00f;
+	text-decoration: underline;
+	text-shadow: 1px 1px;
+}
+.main__item-text span {
+	color: rgb(30, 57, 210);
+}
+
+.main__item-item {
+	line-height: 60px;
+	font-size: 40px;
+	font-weight: 900;
+	color: rgb(0, 100, 0);
+	text-shadow: 10px 10px 4px rgb(0, 100, 0, 0.7), -10px -10px 4px rgba(218, 241, 2, 0.8);
+
+	letter-spacing: 15px;
+	text-transform: uppercase;
+}
+.main__body {
+	text-align: center;
+}
+.main__body-item {
+	color: rgb(0, 0, 139, 0.9);
+	text-shadow: 10px 10px 4px rgba(0, 90, 139, 0.8);
+	line-height: 60px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.main__body-text {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(0, 100, 0);
+	line-height: 25px;
+	word-spacing: 30px;
+	text-shadow: 4px 4px 4px rgba(0, 90, 139, 1);
+}
+.main__body-link {
+	color: #000;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-decoration: line-through;
+	font-weight: 900;
+}
+
+.main__text {
+	font-family: "Cormorant Upright", serif;
+	text-align: center;
+}
+
+.main__text-text {
+	text-align: left;
+}
+
+.main__text-item {
+	color: rgba(0, 0, 0, 0.2);
+	line-height: 60px;
+	font-size: 40px;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 10px;
+	text-shadow: 7px 4px 1.5px rgba(0, 0, 0, 1);
+}
+.main__text-text {
+	font-weight: 700;
+	font-style: italic;
+	color: darkgreen;
+	font-size: 20px;
+	line-height: 25px;
+}
+.main__text-link {
+	font-family: "Gilroy";
+	font-style: normal;
+	text-decoration: underline;
+	font-size: 22px;
+}
+.main__inside {
+	color: rgb(100, 0, 0);
+	text-shadow: 3px -1px 3px rgb(100, 0, 0);
+}
+.footer__body {
+	font-family: "Cormorant Upright", serif;
+	text-align: center;
+}
+.footer__menu {
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: lowercase;
+	line-height: 30px;
+}
+
+.footer__link {
+	color: #000;
+}
+.footer__up {
+	font-family: "Gilroy";
+	font-size: 14px;
+	font-weight: 800;
+	text-decoration: underline;
+}
+.footer__protection {
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 30px;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	color: rgb(228, 22, 22);
+	text-shadow: 360px 0px 0px rgba(63, 243, 3, 0.9), 3px 2px 0px rgba(106, 6, 245, 0.7),
+		-360px 0px 0px rgba(6, 34, 245, 0.7);
+}
+.footer__buttom {
+	line-height: 60px;
+}
